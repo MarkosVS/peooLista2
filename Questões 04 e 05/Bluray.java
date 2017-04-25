@@ -4,10 +4,16 @@ public class Bluray extends Item{
 	private String duracao;
 	private String genero;
 
-	//construtor
+	//construtores
 	public Bluray(String nome, String diretor){
 		this.nome = nome;
 		this.diretor = diretor;
+	}
+
+	public Bluray(String nome, String diretor, String genero){
+		this.nome = nome;
+		this.diretor = diretor;
+		this.genero = genero;
 	}
 
 	//getters

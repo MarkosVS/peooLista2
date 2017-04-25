@@ -5,10 +5,16 @@ public class Quadrinho extends Item{
 	private String dataPublicacao;
 	private String genero;
 
-	//construtor
+	//construtores
 	public Quadrinho(String nome, String autor){
 		this.nome = nome;
 		this.autor = autor;
+	}
+
+	public Quadrinho(String nome, String autor, String genero){
+		this.nome = nome;
+		this.autor = autor;
+		this.genero = genero;
 	}
 
 	//getters
